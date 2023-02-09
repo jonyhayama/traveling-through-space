@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "nuxt": "^3.1.2",
+    "sass": "^1.58.0"
+  },
+  "dependencies": {
+    "@picocss/pico": "^1.5.7",
+    "@vueuse/nuxt": "^9.12.0"
+  }
+}
