@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@vueuse/nuxt"
   ],
   app: {
+    baseURL: '/traveling-through-space/',
     head: {
       link: [{rel:'icon', type: 'image/png', href:"/favicon.png"}]
     }
